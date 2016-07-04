@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sidedish</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab1">간단 반찬</string>
+    <string name="tab2">진짜 반찬</string>
+    <string name="tab3">식사</string>
+    <string name="tab4">반찬</string>
+</resources>

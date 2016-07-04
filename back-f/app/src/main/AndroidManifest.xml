@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.recipe.newcle.sidedish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="반찬과 백주부"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.recipe.newcle.sidedish.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.recipe.newcle.sidedish.MainActivity"
+            android:label="반찬과 백주부" />
+        <activity
+            android:name="com.recipe.newcle.sidedish.recipes.RecipesActivity"
+            android:label="레시피들 모음" />
+        <activity
+            android:name="com.recipe.newcle.sidedish.TodayActivity"
+            android:label="오늘의 메뉴" />
+        <activity android:name="com.recipe.newcle.sidedish.SidedishActivity" />
+        <activity
+            android:name="com.recipe.newcle.sidedish.BackjubuActivity"
+            android:label="백주부" />
+        <activity android:name="com.recipe.newcle.sidedish.Detail_hideActivity" />
+        <activity
+            android:name="com.recipe.newcle.sidedish.DetailActivity"
+            android:label="레시피" />
+        <activity android:name="com.recipe.newcle.sidedish.SearchActivity"></activity>
+    </application>
+
+</manifest>

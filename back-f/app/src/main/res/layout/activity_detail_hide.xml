@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Detail_hideActivity"
+        android:background="#d1d1d1">
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="#cf9e9e"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/bottom_stroke">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="준비물"
+                android:id="@+id/textView3"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="계란 (달걀) 2개 물 3컵 소금 1/2작은술 파 1쪽 당근 (홍당무) 2쪽"
+                android:id="@+id/text_prepare"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_shape_white"
+                android:padding="5sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/bottom_stroke">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="영상"
+                android:id="@+id/textView4"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/text_url"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_shape_white"
+                android:padding="5sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/bottom_stroke">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="조리순서"
+                android:id="@+id/textView5"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_order"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_shape_white"
+                android:padding="5sp"
+                android:text="중탕할수 있는 크기의 냄비에 물3컵을 끓입니다. 냄비가 너무 크면 중탕하는 시간이 너무 오래걸릴 수도 있습니다. 물이 끊고 있는 동안 열에 강한 유리그릇에 계란과 소금을 넣고 잘 저어주세요. 끊는 물 한 컵을 계란에 천천히 부으면서 포크로 계속 저어주세요. 숟가락으로 계란 위에 뜨는 거품을 걷어냅니다. 계란을 그릇채로 냄비 안에 넣고 뚜껑이나 접시를 사용해서잘 덮어주세요. 중간불에 10분간 중탕합니다. 불을 끄고 유리그릇채로 상에 놓고 먹으면 다 먹을때 까지 계란찜이 따뜻합니다. 파와 홍당무를 채썰어 계란찜 위에 장식하세요." />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
