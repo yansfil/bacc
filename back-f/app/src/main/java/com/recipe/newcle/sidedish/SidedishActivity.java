@@ -28,8 +28,8 @@ public class SidedishActivity extends TabActivity {
         datas = new data();
         data1 = datas.getdata1();
         data2 = datas.getdata2();
-        GridviewAdapter listviewAdapter = new GridviewAdapter(getApplicationContext(),R.layout.row_girdview,data1);
-        GridviewAdapter listviewAdapter2 = new GridviewAdapter(getApplicationContext(),R.layout.row_girdview,data2);
+        GridviewAdapter listviewAdapter = new GridviewAdapter(getApplicationContext(),R.layout.view_griditem,data1);
+        GridviewAdapter listviewAdapter2 = new GridviewAdapter(getApplicationContext(),R.layout.view_griditem,data2);
 
         // 탭 1, 2, 3 을 추가하면서 태그를 달아주고, 제목(또는 아이콘)을 설정한다.
         mTabHost.addTab(mTabHost.newTabSpec("tab1").setContent(R.id.tab1).setIndicator(getString(R.string.tab1)));

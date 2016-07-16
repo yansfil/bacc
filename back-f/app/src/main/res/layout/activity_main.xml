@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#b1ccdcc0"
     android:paddingLeft="10dp"
     android:paddingRight="10dp">
     <Button
@@ -17,12 +16,14 @@
         android:layout_above="@+id/today_btn"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="30dp" />
+        android:layout_marginBottom="30dp"
+        android:layout_alignRight="@+id/today_btn"
+        android:layout_alignEnd="@+id/today_btn" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="오늘의 추천메뉴"
+        android:text="오늘의 추천요리"
         android:id="@+id/today_btn"
         android:background="@drawable/circle_shape_pink"
         android:textColor="#e0e0e0"
@@ -35,7 +36,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="반찬 검색하기"
+        android:text="음식 검색하기"
         android:id="@+id/search_btn"
         android:background="@drawable/circle_shape_pink"
         android:textColor="#e0e0e0"

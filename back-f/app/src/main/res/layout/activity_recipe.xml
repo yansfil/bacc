@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="반찬 레시피"
-        android:id="@+id/button"
+        android:id="@+id/dishes"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"

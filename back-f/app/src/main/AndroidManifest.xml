@@ -11,7 +11,13 @@
         android:label="반찬과 백주부"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.recipe.newcle.sidedish.SplashActivity">
+        <activity android:name=".SplashActivity" />
+        <activity
+            android:name=".main.MainActivity"
+            android:label="반찬과 백주부" />
+        <activity
+            android:name=".recipes.RecipesActivity"
+            android:label="레시피들 모음">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,23 +25,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.recipe.newcle.sidedish.MainActivity"
-            android:label="반찬과 백주부" />
-        <activity
-            android:name="com.recipe.newcle.sidedish.recipes.RecipesActivity"
-            android:label="레시피들 모음" />
-        <activity
-            android:name="com.recipe.newcle.sidedish.TodayActivity"
+            android:name=".TodayActivity"
             android:label="오늘의 메뉴" />
-        <activity android:name="com.recipe.newcle.sidedish.SidedishActivity" />
+        <activity android:name=".SidedishActivity" />
+        <activity android:name=".Detail_hideActivity" />
         <activity
-            android:name="com.recipe.newcle.sidedish.BackjubuActivity"
-            android:label="백주부" />
-        <activity android:name="com.recipe.newcle.sidedish.Detail_hideActivity" />
-        <activity
-            android:name="com.recipe.newcle.sidedish.DetailActivity"
+            android:name=".DetailActivity"
             android:label="레시피" />
-        <activity android:name="com.recipe.newcle.sidedish.SearchActivity"></activity>
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".recipes.ListActivity" />
+        <activity android:name=".recipes.ListDetailActivity" />
     </application>
 
 </manifest>

@@ -22,7 +22,4 @@ public class GridItem {
         this.picutre = picutre;
         this.url = url;
     }
-
-
-
 }

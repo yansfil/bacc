@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
+import com.recipe.newcle.sidedish.main.MainActivity;
+
 /**
  * Created by hoyun on 2016-03-28.
  */

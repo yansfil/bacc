@@ -49,7 +49,7 @@ public class SearchActivity extends AppCompatActivity {
         if(Ndata.isEmpty()){
             textview.setText("찾으시는 요리가 없습니다ㅠㅠ");
         }
-        GridviewAdapter gridviewAdapter = new GridviewAdapter(getApplicationContext(),R.layout.row_girdview,Ndata);
+        GridviewAdapter gridviewAdapter = new GridviewAdapter(getApplicationContext(),R.layout.view_griditem,Ndata);
         gridview.setAdapter(gridviewAdapter);
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
